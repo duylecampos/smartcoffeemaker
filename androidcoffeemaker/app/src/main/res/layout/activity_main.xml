@@ -9,25 +9,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="nkey.com.smartcoffeemaker.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Connect"
-        android:id="@+id/button"
-        android:onClick="connect"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Read"
-        android:id="@+id/read"
-        android:onClick="read" />
 </RelativeLayout>
